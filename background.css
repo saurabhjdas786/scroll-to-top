@@ -1,0 +1,14 @@
+.scroll-to-top-bottom-bar {
+  position: fixed;
+  bottom: 0;
+  background: rgba(39, 169, 255, 0.739);
+  height: 2vh;
+  width: 100vw;
+  border-radius: 100% 100% 0 0;
+  transition: all 200ms cubic-bezier(0.075, 0.82, 0.165, 1) 0s;
+  cursor: pointer;
+}
+.increase-bottom-bar {
+  height: 5vh;
+  border-radius: 100% 100% 0 0;
+}

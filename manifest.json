@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "version": "1.0.0",
+  "author": "Saurabh Jayesh Das",
+  "name": "Scroll to top",
+  "description": "Scrolls to the top of page",
+  "browser_action": {
+    "browser_style": true,
+    "default_icon": "icon/icon.png",
+    "default_title": "Scroll to top",
+    "default_popup": "html/popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "declarativeContent",
+    "https://*/*",
+    "http://*/*",
+    "tabs",
+    "<all_urls>"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*", "<all_urls>"],
+      "js": ["content.js"],
+      "css": ["background.css"]
+    }
+  ]
+}
