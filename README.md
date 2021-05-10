@@ -1,14 +1,16 @@
-There are no:-
+# Scroll to the top of any page :point_up_2:
 
-[x] Code generators or minifiers
+## There are no:
 
-[x] Tools that combine multiple files into a single file, such as webpack
+❌ Code generators or minifiers
 
-[x] Web template engines, both for HTML and CSS
+❌ Tools that combine multiple files into a single file, such as webpack
 
-[x] Any other tool that takes code or files, applies processing, and generates code or file(s) to include in the add-on
+❌ Web template engines, both for HTML and CSS
 
-The directory structure of the project consists of:
+❌ Any other tool that takes code or files, applies processing, and generates code or file(s) to include in the add-on
+
+## The directory structure of the project consists of:
 
 1. An **`html`** folder for the template that shows up on clicking the extension.
 2. An **`icon`** folder for the icon of the extension.
