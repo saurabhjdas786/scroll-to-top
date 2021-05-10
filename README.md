@@ -17,3 +17,5 @@
 3. A mandatory **`manifest.json`** file.
 4. A **`background.css`** file for styling the `DOM` element of scrolling up.
 5. A **`content.js`** file for providing the core functionality of the extension.
+
+[Install the add-on for your Mozilla Firefox](https://addons.mozilla.org/en-US/firefox/addon/scroll-to-the-top-of-any-page/ "Mozilla add-ons page")
